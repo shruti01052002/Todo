@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState } from "react"
 import { Box, TextField, Button } from "@mui/material";
 
 
 export const TodoForm = ({ addTodo }) => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState("");
 
   const handleSubmit = (e) => {
     // prevent default action
@@ -12,7 +12,7 @@ export const TodoForm = ({ addTodo }) => {
       // add todo
       addTodo(value);
       // clear form after submission
-      setValue('');
+      setValue("");
     }
   };
   return (
@@ -40,7 +40,7 @@ export const TodoForm = ({ addTodo }) => {
       <Button
         type="submit"
         variant="contained"
-        sx={{ backgroundColor: "#8758ff", height: "56px", width: "150px", marginLeft: "-40px" }} // Set height to match TextField's height
+        sx={{ backgroundColor: "#8758ff", height: "56px", width: "150px", marginLeft: "-40px" }} // Set height to match TextField"s height
       >
         Add Task
       </Button>

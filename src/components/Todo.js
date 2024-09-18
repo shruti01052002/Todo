@@ -1,10 +1,8 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
-import { faTrash } from '@fortawesome/free-solid-svg-icons'
-import CheckBoxIcon from '@mui/icons-material/CheckBox';
-import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
-import DeleteIcon from '@mui/icons-material/Delete';
+import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import CheckBoxIcon from "@mui/icons-material/CheckBox";
+import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
+import DeleteIcon from "@mui/icons-material/Delete";
 
 export const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
     return (
